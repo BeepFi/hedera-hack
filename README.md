@@ -112,9 +112,9 @@ When user claims "I didn't authorize this transaction":
 Advanced financial services (escrow, savings vaults, multi-sig) require programmable logic. Hedera's EVM-compatible contracts with **$0.05-0.10 deployment** and deterministic gas enable sophisticated DeFi accessible via USSD codes.
 
 **Smart Contracts Deployed (Testnet):**
-- **Beep Contract (0.0.123462):** 
-- **RWA tokenization contract(0.0.123463):** 
-- **ERC20 contract (0.0.123464):** Require 2 PINs for transactions >$100
+- **Beep Contract:** 
+- **RWA tokenization contract:** 
+- **ERC20 contract:**
 
 ---
 
@@ -199,23 +199,22 @@ Fee Collection Account:    0.0.123453
 
 ### HTS Tokens
 ```
-BEEP Wallet Token:         0.0.123456
-USDC Mirror (Testnet):     0.0.123457
-Loyalty Points Token:      0.0.123458
+BEEP Tokenized Naira Token: 0x7AEb2F07D1C5ca792D1D2966215E03C9F90e99E8
+USDC Mirror: 0xf4C08931ABA27ace3659ccAd0e1d320Fb8783137
 ```
 
 ### HCS Topics
 ```
-Transaction Audit Log:     0.0.123459
-Security Events Log:       0.0.123460
-User Activity Metrics:     0.0.123461
+Intenti Log
+Transfer Log
 ```
 
 ### Smart Contracts
 ```
-Escrow Contract:           0.0.123462
-Savings Vault Contract:    0.0.123463
-Multi-Sig Factory:         0.0.123464
+Beep Contract: 0x51c6D3b251106e0adb16B5F8003E039192406ceB
+Compliance Contract: 0x973e3435F9c2aa717cb20cF358F252D3A935bC59
+Identity Contract: 0x0a8f5ccC8450ABeB45588909e97611d514B6DcB5
+IdentityRegistry Contract: 0xDD6AE8Cc2bf530B467E05106C698dEBf9E7cEF9D
 ```
 
 ---
